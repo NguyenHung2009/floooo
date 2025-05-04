@@ -1,6 +1,12 @@
 version = 1
 
 [[analyzers]]
+name = "ansible"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
 name = "javascript"
 
 [[analyzers]]
@@ -35,19 +41,13 @@ name = "kotlin"
   language_version = "1.7"
 
 [[analyzers]]
-name = "docker"
-
-[[analyzers]]
-name = "ansible"
-
-[[analyzers]]
-name = "csharp"
-
-[[analyzers]]
 name = "go"
 
   [analyzers.meta]
   import_root = "github.com/NguyenHung2009/floooo"
+
+[[analyzers]]
+name = "csharp"
 
 [[analyzers]]
 name = "cxx"
